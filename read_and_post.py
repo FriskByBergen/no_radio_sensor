@@ -19,7 +19,7 @@ def isnumbers(l):
 ser = serial.Serial('/dev/ttyACM0', 9600)
 url = "http://friskby.herokuapp.com/sensor/api/reading/"
 headers = {"Content-Type" : "application/json"}
-api_key = "9c72f670-d60e-436e-b6b9-5cde41cd01a5"
+api_key = "insert_your_key_here"
 while True:
 		# read data from Arduino
 	s = ser.readline()
